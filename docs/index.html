@@ -1,138 +1,352 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="FoodLogistic S.A. - Logística alimentària i transport refrigerat d'alta precisió.">
-    <title>FoodLogistic S.A. | Logística de Precisió</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FoodLogistic S.A. — Solucions logístiques per al sector alimentari. Cadena de fred, distribució i traçabilitat amb garantia de qualitat." />
+  <title>FoodLogistic S.A. | Logística Alimentària de Confiança</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-    <header class="header">
-        <div class="container nav-wrapper">
-            <a href="#" class="logo">FOOD<span>LOGISTIC</span></a>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="#inici">Inici</a></li>
-                    <li><a href="#serveis">Serveis</a></li>
-                    <li><a href="#empresa">L'Empresa</a></li>
-                    <li><a href="#contacte" class="btn-nav">Sol·licitar Pressupost</a></li>
-                </ul>
-            </nav>
+  <!-- NAVEGACIÓ -->
+  <header id="header">
+    <div class="container nav-inner">
+      <a href="#inici" class="logo">
+        <span class="logo-icon">FL</span>
+        <span class="logo-text">FoodLogistic<em>S.A.</em></span>
+      </a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inici">Inici</a></li>
+          <li><a href="#serveis">Serveis</a></li>
+          <li><a href="#nosaltres">Sobre nosaltres</a></li>
+          <li><a href="#contacte" class="btn-nav">Contacte</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Obrir menú">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- INICI / HERO -->
+  <section id="inici" class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+      <p class="hero-tag">Logística alimentària certificada</p>
+      <h1>La cadena de fred<br /><em>mai no s'atura.</em></h1>
+      <p class="hero-sub">Distribuïm productes alimentaris amb precisió, traçabilitat total i la màxima garantia de qualitat des de l'origen fins al punt de venda.</p>
+      <div class="hero-ctas">
+        <a href="#serveis" class="btn-primary">Descobreix els serveis</a>
+        <a href="#contacte" class="btn-secondary">Parla amb nosaltres</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">+350</span><span class="stat-label">Clients actius</span></div>
+        <div class="stat"><span class="stat-num">24/7</span><span class="stat-label">Operació contínua</span></div>
+        <div class="stat"><span class="stat-num">98,7%</span><span class="stat-label">Lliuraments puntuals</span></div>
+        <div class="stat"><span class="stat-num">ISO 22000</span><span class="stat-label">Certificació activa</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVEIS -->
+  <section id="serveis" class="section-serveis">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">El que oferim</p>
+        <h2>Serveis especialitzats<br /><em>per al sector alimentari</em></h2>
+        <p class="section-intro">Cada producte que distribuïm mereix el tracte que li correspon. Per això hem dissenyat solucions específiques per a cada necessitat logística.</p>
+      </div>
+      <div class="serveis-grid">
+        <div class="servei-card">
+          <div class="servei-icon s1">❄️</div>
+          <h3>Cadena de fred</h3>
+          <p>Transport i emmagatzematge de productes refrigerats i congelats amb control de temperatura en temps real i registre continu certificat.</p>
+          <ul>
+            <li>De 0°C a +4°C (refrigerats)</li>
+            <li>De -18°C a -25°C (congelats)</li>
+            <li>Monitorització IoT 24/7</li>
+          </ul>
         </div>
-    </header>
-
-    <main>
-        <section id="inici" class="hero">
-            <div class="hero-bg"></div>
-            <div class="container hero-content animate-fade-up">
-                <div class="badge">Operativa Lògica 4.0</div>
-                <h1>Fred ininterromput.<br>Rendiment <span class="text-gradient">absolut.</span></h1>
-                <p>Gestió logística i transport refrigerat d'alta precisió. Garantim la cadena de fred amb monitorització intel·ligent i una flota d'última generació.</p>
-                <div class="hero-buttons">
-                    <a href="#serveis" class="btn btn-primary">Descobreix els Serveis</a>
-                    <a href="#contacte" class="btn btn-outline">Parlem</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="metrics">
-            <div class="container grid-4 animate-fade-up" style="animation-delay: 0.2s;">
-                <div class="metric-card">
-                    <h3>35</h3>
-                    <p>Professionals en plantilla</p>
-                </div>
-                <div class="metric-card">
-                    <h3>24/7</h3>
-                    <p>Monitorització de flota</p>
-                </div>
-                <div class="metric-card">
-                    <h3>-20°C</h3>
-                    <p>Garantia de fred extrem</p>
-                </div>
-                <div class="metric-card">
-                    <h3>100%</h3>
-                    <p>Compliment Normatiu</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="serveis" class="services section-padding">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Especialització Tècnica</h2>
-                    <p>Solucions integrals dissenyades per a la indústria alimentària més exigent.</p>
-                </div>
-                <div class="grid-3">
-                    <article class="service-card">
-                        <div class="icon-box">❄️</div>
-                        <h3>Transport Refrigerat</h3>
-                        <p>Flota isotèrmica pròpia amb control tèrmic constant i sensors de telemetria GPS en temps real.</p>
-                    </article>
-                    <article class="service-card">
-                        <div class="icon-box">📦</div>
-                        <h3>Emmagatzematge Intel·ligent</h3>
-                        <p>Instal·lacions frigorífiques amb gestió d'estocs automatitzada per a una rotació perfecta (FIFO/FEFO).</p>
-                    </article>
-                    <article class="service-card">
-                        <div class="icon-box">🚚</div>
-                        <h3>Distribució Capil·lar</h3>
-                        <p>Rutes optimitzades per algoritmes per garantir entregues d'última milla sense trencar la cadena de fred.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="contacte" class="contact section-padding">
-            <div class="container contact-wrapper">
-                <div class="contact-text">
-                    <h2>Digitalitzem la teva logística avui.</h2>
-                    <p>Compliu amb la LOPDGDD i la LSSI-CE demanant informació de forma segura. El nostre equip tècnic respondrà en menys de 24 hores.</p>
-                    <div class="contact-direct">
-                        <p><strong>Correu:</strong> operacions@foodlogistic.cat</p>
-                        <p><strong>Seu Central:</strong> Parc Logístic, Nau 4</p>
-                    </div>
-                </div>
-                
-                <form class="premium-form" action="#" method="POST">
-                    <div class="form-grid">
-                        <div class="input-group">
-                            <input type="text" id="nom" name="nom" required placeholder=" ">
-                            <label for="nom">Nom corporatiu</label>
-                        </div>
-                        <div class="input-group">
-                            <input type="email" id="email" name="email" required placeholder=" ">
-                            <label for="email">Correu electrònic</label>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <input type="tel" id="telefon" name="telefon" required placeholder=" ">
-                        <label for="telefon">Telèfon de contacte</label>
-                    </div>
-                    <div class="input-group">
-                        <textarea id="missatge" name="missatge" rows="4" required placeholder=" "></textarea>
-                        <label for="missatge">Detalls de l'operativa...</label>
-                    </div>
-                    <button type="submit" class="btn btn-primary full-width">Enviar Sol·licitud Segura</button>
-                </form>
-            </div>
-        </section>
-    </main>
-
-    <footer class="footer">
-        <div class="container footer-content">
-            <div class="footer-brand">
-                <a href="#" class="logo">FOOD<span>LOGISTIC</span></a>
-                <p>Liderant la cadena de fred des de l'eficiència tecnològica.</p>
-            </div>
-            <div class="footer-legal">
-                <p>&copy; 2026 FoodLogistic S.A.</p>
-                <p class="legal-text">Lloc web auditat. Compliment estricte de <strong>LSSI-CE</strong> i <strong>LOPDGDD</strong>. Analítica gestionada via StatCounter.</p>
-            </div>
+        <div class="servei-card featured">
+          <div class="servei-badge">Més demanat</div>
+          <div class="servei-icon s2">🚚</div>
+          <h3>Distribució nacional</h3>
+          <p>Xarxa de distribució que cobreix tot el territori espanyol amb flota pròpia refrigerada i acords estratègics amb operadors regionals de confiança.</p>
+          <ul>
+            <li>Lliurament en 24–48 h</li>
+            <li>Rutes optimitzades per IA</li>
+            <li>Seguiment GPS en temps real</li>
+          </ul>
         </div>
-    </footer>
+        <div class="servei-card">
+          <div class="servei-icon s3">📦</div>
+          <h3>Logística de magatzem</h3>
+          <p>Centres logístics equipats amb tecnologia FIFO/FEFO automatitzada, gestió d'estoc intel·ligent i preparació de comandes a mida.</p>
+          <ul>
+            <li>WMS propi integrable</li>
+            <li>Preparació cross-docking</li>
+            <li>Auditories periòdiques</li>
+          </ul>
+        </div>
+        <div class="servei-card">
+          <div class="servei-icon s4">🔍</div>
+          <h3>Traçabilitat total</h3>
+          <p>Sistema de traçabilitat des de l'origen fins al destinatari final, amb codificació GS1 i accés al portal de clients en temps real.</p>
+          <ul>
+            <li>Portal de client online</li>
+            <li>Informes automatitzats</li>
+            <li>Compliment normatiu CE</li>
+          </ul>
+        </div>
+        <div class="servei-card">
+          <div class="servei-icon s5">🌍</div>
+          <h3>Importació i exportació</h3>
+          <p>Gestionem operacions d'importació i exportació de productes alimentaris amb tota la documentació duanera i sanitària necessària.</p>
+          <ul>
+            <li>Gestió documental completa</li>
+            <li>Partners a 15 països</li>
+            <li>Inspecció fitosanitària</li>
+          </ul>
+        </div>
+        <div class="servei-card">
+          <div class="servei-icon s6">♻️</div>
+          <h3>Logística sostenible</h3>
+          <p>Compromís real amb la reducció d'emissions: vehicles elèctrics, rutes eficients i embalatge reciclable per a un sector més responsable.</p>
+          <ul>
+            <li>Flota parcialment elèctrica</li>
+            <li>Compensació CO₂ certificada</li>
+            <li>Informe d'impacte anual</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    </body>
+  <!-- SOBRE NOSALTRES -->
+  <section id="nosaltres" class="section-nosaltres">
+    <div class="container">
+      <div class="nosaltres-grid">
+        <div class="nosaltres-text">
+          <p class="section-tag">Qui som</p>
+          <h2>Més de 25 anys<br /><em>movent aliments</em></h2>
+          <p>FoodLogistic S.A. va néixer el 1998 a Vic (Osona) amb una missió clara: oferir solucions logístiques específiques i fiables per al sector agroalimentari català i espanyol.</p>
+          <p>Avui som una empresa de referència en logística de temperatura controlada, amb més de 200 professionals, 5 centres logístics i una flota de 120 vehicles adaptats a les exigències sanitàries del sector alimentari.</p>
+          <p>La nostra força rau en combinar la proximitat del tracte humà amb la tecnologia més avançada: sistemes de monitorització IoT, optimització de rutes per intel·ligència artificial i una plataforma digital que posa la informació a l'abast del client en tot moment.</p>
+          <div class="valors">
+            <div class="valor"><span class="valor-icon">✓</span><div><strong>Fiabilitat</strong><p>Complim el que prometem, cada dia i cada ruta.</p></div></div>
+            <div class="valor"><span class="valor-icon">✓</span><div><strong>Qualitat certificada</strong><p>ISO 22000, IFS Logistics i BRC Storage & Distribution.</p></div></div>
+            <div class="valor"><span class="valor-icon">✓</span><div><strong>Innovació contínua</strong><p>Invertim en tecnologia per ser millors cada any.</p></div></div>
+          </div>
+        </div>
+        <div class="nosaltres-visual">
+          <div class="visual-card vc1">
+            <span class="vc-num">1998</span>
+            <span class="vc-label">Any de fundació</span>
+          </div>
+          <div class="visual-card vc2">
+            <span class="vc-num">+200</span>
+            <span class="vc-label">Professionals</span>
+          </div>
+          <div class="visual-card vc3">
+            <span class="vc-num">5</span>
+            <span class="vc-label">Centres logístics</span>
+          </div>
+          <div class="visual-card vc4">
+            <span class="vc-num">120</span>
+            <span class="vc-label">Vehicles de flota</span>
+          </div>
+          <div class="cert-badge">
+            <p>Certificacions actives</p>
+            <div class="certs">
+              <span>ISO 22000</span>
+              <span>IFS Logistics</span>
+              <span>BRC</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTE -->
+  <section id="contacte" class="section-contacte">
+    <div class="container">
+      <div class="contacte-grid">
+        <div class="contacte-info">
+          <p class="section-tag">Parla amb nosaltres</p>
+          <h2>T'assessorem<br /><em>sense compromís</em></h2>
+          <p>Explica'ns el teu repte logístic i et proposarem la solució més adequada per al teu negoci. El nostre equip comercial et respondrà en menys de 24 hores.</p>
+          <div class="contacte-dades">
+            <div class="dada">
+              <span class="dada-icon">📍</span>
+              <div>
+                <strong>Seu central</strong>
+                <p>Polígon Industrial Les Guixeres<br />Carrer de la Indústria, 42<br />08500 Vic (Barcelona)</p>
+              </div>
+            </div>
+            <div class="dada">
+              <span class="dada-icon">📞</span>
+              <div>
+                <strong>Telèfon</strong>
+                <p><a href="tel:+34938000000">+34 938 00 00 00</a></p>
+              </div>
+            </div>
+            <div class="dada">
+              <span class="dada-icon">✉️</span>
+              <div>
+                <strong>Correu electrònic</strong>
+                <p><a href="mailto:info@foodlogistic.cat">info@foodlogistic.cat</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="horari">
+            <strong>Horari d'atenció</strong>
+            <p>Dilluns – Divendres: 8:00 – 18:00<br />Urgències 24/7: <a href="tel:+34938000001">+34 938 00 00 01</a></p>
+          </div>
+        </div>
+
+        <div class="contacte-form-wrapper">
+          <form class="contacte-form" id="contacte-form" novalidate>
+            <h3>Envia'ns un missatge</h3>
+            <div class="form-group">
+              <label for="nom">Nom complet *</label>
+              <input type="text" id="nom" name="nom" placeholder="El teu nom i cognoms" required />
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Correu electrònic *</label>
+                <input type="email" id="email" name="email" placeholder="correu@empresa.com" required />
+              </div>
+              <div class="form-group">
+                <label for="telefon">Telèfon de contacte *</label>
+                <input type="tel" id="telefon" name="telefon" placeholder="6XX XXX XXX" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="empresa">Empresa (opcional)</label>
+              <input type="text" id="empresa" name="empresa" placeholder="Nom de la teva empresa" />
+            </div>
+            <div class="form-group">
+              <label for="missatge">Missatge *</label>
+              <textarea id="missatge" name="missatge" rows="5" placeholder="Descriu la teva necessitat logística..." required></textarea>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="privacitat" name="privacitat" required />
+              <label for="privacitat">He llegit i accepto la <a href="politica-privacitat.html">Política de Privacitat</a> i el tractament de les meves dades d'acord amb la LOPDGDD i el RGPD.</label>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" id="lssi" name="lssi" />
+              <label for="lssi">Accepto rebre comunicacions comercials per correu electrònic d'acord amb la LSSI-CE (opcional).</label>
+            </div>
+            <button type="submit" class="btn-submit">Enviar missatge</button>
+            <div class="form-aviso">
+              Les dades recollides seran tractades per FoodLogistic S.A. per gestionar la teva consulta. Pots exercir els teus drets d'accés, rectificació i supressió escrivint a <a href="mailto:privacitat@foodlogistic.cat">privacitat@foodlogistic.cat</a>.
+            </div>
+          </form>
+          <div class="form-success" id="form-success" style="display:none;">
+            <div class="success-icon">✓</div>
+            <h3>Missatge enviat!</h3>
+            <p>Gràcies pel teu contacte. Et respondrem en menys de 24 hores.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#inici" class="logo logo-light">
+          <span class="logo-icon">FL</span>
+          <span class="logo-text">FoodLogistic<em>S.A.</em></span>
+        </a>
+        <p>Logística alimentària de confiança des de 1998. Operem a tot Espanya amb el màxim estàndard de qualitat i traçabilitat.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#nosaltres">Sobre nosaltres</a></li>
+          <li><a href="#serveis">Serveis</a></li>
+          <li><a href="#contacte">Contacte</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="avis-legal.html">Avís legal</a></li>
+          <li><a href="politica-privacitat.html">Política de privacitat</a></li>
+          <li><a href="politica-cookies.html">Política de cookies</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contacte ràpid</h4>
+        <p>📍 Polígon Les Guixeres, Vic</p>
+        <p>📞 <a href="tel:+34938000000">+34 938 00 00 00</a></p>
+        <p>✉️ <a href="mailto:info@foodlogistic.cat">info@foodlogistic.cat</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 FoodLogistic S.A. Tots els drets reservats. | NIF: A-XXXXXXXX | Inscrita al Registre Mercantil de Barcelona</p>
+        <p class="footer-ai">Contingut creat amb l'ajuda de Claude (Anthropic) com a eina d'IA. Imatges: Unsplash (llicència lliure).</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Navegació sticky
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 60);
+    });
+
+    // Menú hamburger
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+
+    // Tancar menú en clicar un link
+    document.querySelectorAll('.nav-links a').forEach(a => {
+      a.addEventListener('click', () => {
+        navLinks.classList.remove('open');
+        hamburger.classList.remove('active');
+      });
+    });
+
+    // Formulari de contacte (simulació)
+    document.getElementById('contacte-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const form = document.getElementById('contacte-form');
+      const success = document.getElementById('form-success');
+      form.style.display = 'none';
+      success.style.display = 'flex';
+    });
+
+    // Animació en scroll (Intersection Observer)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.servei-card, .visual-card, .nosaltres-text, .contacte-info, .contacte-form-wrapper').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+  <!-- Statcounter — afegir aquí el codi de seguiment -->
+  <!-- START STATCOUNTER CODE -->
+  <!-- END STATCOUNTER CODE -->
+
+</body>
 </html>
