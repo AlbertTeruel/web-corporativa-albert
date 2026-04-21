@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <title>Política de Cookies | FoodLogistic S.A.</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+  <style>
+    .cookie-toggle-section { background: var(--cream); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 24px; margin-bottom: 16px; }
+    .cookie-toggle-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .cookie-toggle-header h3 { font-size: .98rem; margin: 0; }
+    .toggle-wrap { display: flex; align-items: center; gap: 8px; }
+    .toggle-wrap span { font-size: .78rem; color: var(--text-muted); }
+    .toggle {
+      position: relative; width: 44px; height: 24px;
+      background: var(--border); border-radius: 999px; cursor: pointer;
+      transition: background var(--transition);
+    }
+    .toggle.on { background: var(--green-mid); }
+    .toggle.disabled { background: var(--green-pale); cursor: not-allowed; }
+    .toggle::after {
+      content: ''; position: absolute; top: 3px; left: 3px;
+      width: 18px; height: 18px; border-radius: 50%;
+      background: var(--white); transition: transform var(--transition);
+    }
+    .toggle.on::after { transform: translateX(20px); }
+    .toggle-label { font-size: .78rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+    .toggle-label.on-label { color: var(--green-mid); }
+    .cookie-toggle-body { font-size: .84rem; color: var(--text-muted); line-height: 1.6; }
+    .save-prefs { margin-top: 20px; }
+    .saved-msg { display: none; margin-top: 12px; color: var(--green-mid); font-size: .85rem; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+<header id="header" class="solid">
+  <div class="container nav-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-icon">FL</span>
+      <span class="logo-text">FoodLogistic<em>S.A.</em></span>
+    </a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Inici</a></li>
+        <li><a href="serveis.html">Serveis</a></li>
+        <li><a href="nosaltres.html">Sobre nosaltres</a></li>
+        <li><a href="contacte.html" class="btn-nav">Contacte</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Obrir menú">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Inici</a><span>›</span><strong>Política de cookies</strong>
+    </div>
+    <p class="section-tag">Cookies i tecnologies similars</p>
+    <h1>Política de <em>cookies</em></h1>
+    <p class="lead">Informació sobre les cookies que fem servir, la seva finalitat i com pots gestionar les teves preferències.</p>
+  </div>
+</div>
+
+<section class="section-legal">
+  <div class="container">
+    <div class="legal-grid">
+      <div class="legal-sidebar">
+        <h4>Contingut</h4>
+        <ul>
+          <li><a href="#que-son">1. Què són les cookies</a></li>
+          <li><a href="#tipus">2. Tipus de cookies</a></li>
+          <li><a href="#taula">3. Cookies que usem</a></li>
+          <li><a href="#tercers">4. Cookies de tercers</a></li>
+          <li><a href="#gestio">5. Gestiona les cookies</a></li>
+          <li><a href="#configurar">6. Configuració</a></li>
+          <li><a href="#actualitzacio">7. Actualitzacions</a></li>
+        </ul>
+      </div>
+      <div class="legal-content">
+        <span class="legal-update">Última actualització: juny 2025</span>
+
+        <h2 id="que-son">1. Què són les cookies?</h2>
+        <p>Les cookies són petits arxius de text que els llocs web emmagatzemen al teu dispositiu (ordinador, tauleta, telèfon mòbil) quan els visites. Serveixen per recordar les teves preferències, millorar l'experiència d'usuari i obtenir informació estadística sobre l'ús del lloc web.</p>
+        <p>Les cookies no contenen informació personal identificable per si mateixes, tot i que algunes poden combinar-se amb altra informació per identificar un usuari concret. D'acord amb la normativa vigent (Llei 34/2002, LSSI-CE, i la Directiva 2009/136/CE), t'informem de les cookies que fem servir i et demanem el teu consentiment per a aquelles que no siguin estrictament necessàries.</p>
+
+        <h2 id="tipus">2. Classificació de les cookies</h2>
+        <h3>Segons la seva titularitat</h3>
+        <ul>
+          <li><strong>Cookies pròpies:</strong> Creades i gestionades per FoodLogistic S.A. des del nostre domini.</li>
+          <li><strong>Cookies de tercers:</strong> Instal·lades per serveis externs (Statcounter, Google Fonts).</li>
+        </ul>
+        <h3>Segons la seva durada</h3>
+        <ul>
+          <li><strong>Cookies de sessió:</strong> S'eliminen en tancar el navegador.</li>
+          <li><strong>Cookies persistents:</strong> Es mantenen al dispositiu durant un període determinat o fins que les elimines manualment.</li>
+        </ul>
+        <h3>Segons la seva finalitat</h3>
+        <ul>
+          <li><strong>Cookies tècniques o necessàries:</strong> Indispensables per al funcionament bàsic del lloc web. No requereixen consentiment.</li>
+          <li><strong>Cookies de preferències:</strong> Recorden les teves opcions i configuració.</li>
+          <li><strong>Cookies analítiques o estadístiques:</strong> Permeten analitzar l'ús del lloc web per millorar-lo.</li>
+          <li><strong>Cookies de màrqueting:</strong> Usades per mostrar anuncis rellevants. <em>FoodLogistic S.A. no fa servir cookies de màrqueting pròpies.</em></li>
+        </ul>
+
+        <h2 id="taula">3. Detall de les cookies que fem servir</h2>
+        <table>
+          <tr>
+            <th>Nom</th>
+            <th>Tipus</th>
+            <th>Durada</th>
+            <th>Finalitat</th>
+            <th>Titular</th>
+          </tr>
+          <tr>
+            <td><code>fl_cookies</code></td>
+            <td>Tècnica / Preferències</td>
+            <td>1 any</td>
+            <td>Desa la teva decisió sobre el consentiment de cookies per no tornar a mostrar el banner.</td>
+            <td>FoodLogistic S.A. (pròpia)</td>
+          </tr>
+          <tr>
+            <td><code>sc_is_visitor_unique</code></td>
+            <td>Analítica</td>
+            <td>13 mesos</td>
+            <td>Distingeix si un visitant és nou o recurrent. Usada per Statcounter per a estadístiques.</td>
+            <td>Statcounter (tercers)</td>
+          </tr>
+          <tr>
+            <td><code>sc_session</code></td>
+            <td>Analítica</td>
+            <td>Sessió</td>
+            <td>Identifica la sessió de navegació actual per a estadístiques de Statcounter.</td>
+            <td>Statcounter (tercers)</td>
+          </tr>
+          <tr>
+            <td>Fonts de Google</td>
+            <td>Tècnica</td>
+            <td>Sessió</td>
+            <td>Carrega les tipografies usades al disseny del lloc web. No recull dades personals.</td>
+            <td>Google (tercers)</td>
+          </tr>
+        </table>
+
+        <h2 id="tercers">4. Cookies de tercers</h2>
+        <p>El nostre lloc web utilitza els serveis de tercers que poden instal·lar les seves pròpies cookies:</p>
+
+        <div class="legal-box">
+          <p><strong>Statcounter</strong> — Eina d'analítica web que recull dades estadístiques anònimes sobre les visites al lloc web (pàgines visitades, temps de permanència, ubicació geogràfica aproximada, dispositiu i navegador). Les dades es processen per StatCounter Ltd (Irlanda). Pots consultar la seva política de privacitat a <a href="https://statcounter.com/about/legal/" target="_blank" rel="noopener">statcounter.com/about/legal</a>.</p>
+        </div>
+
+        <div class="legal-box">
+          <p><strong>Google Fonts</strong> — Servei de Google LLC per carregar tipografies. Pot recollir l'adreça IP del visitant per servir les fonts. Pots consultar la política de privacitat de Google a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.</p>
+        </div>
+
+        <h2 id="gestio">5. Com gestionar les cookies</h2>
+        <p>Pots gestionar les cookies de diverses maneres:</p>
+        <h3>Des del nostre lloc web</h3>
+        <p>Pots configurar les teves preferències de cookies a la secció de configuració que trobaràs més avall en aquesta mateixa pàgina o al banner que apareix en accedir per primera vegada al web.</p>
+        <h3>Des del teu navegador</h3>
+        <p>Pots configurar el teu navegador per bloquejar, eliminar o controlar l'emmagatzematge de cookies. Tingues en compte que bloquejar les cookies tècniques pot afectar el funcionament del lloc web:</p>
+        <ul>
+          <li><a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Google Chrome</a></li>
+          <li><a href="https://support.mozilla.org/ca/kb/galetes-informacio-que-els-llocs-web-emmagatzemen" target="_blank" rel="noopener">Mozilla Firefox</a></li>
+          <li><a href="https://support.apple.com/ca-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a></li>
+          <li><a href="https://support.microsoft.com/ca-es/microsoft-edge/eliminar-les-galetes-a-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target="_blank" rel="noopener">Microsoft Edge</a></li>
+        </ul>
+        <p>Per a una gestió global de les cookies de molts llocs web, pots visitar <a href="https://www.youronlinechoices.com/es/sus-opciones" target="_blank" rel="noopener">Your Online Choices</a>.</p>
+
+        <h2 id="configurar">6. Configura les teves preferències</h2>
+        <p>Des d'aquí pots gestionar quines cookies acceptes. Les cookies tècniques i de preferències sempre estan actives perquè el lloc web funcioni correctament.</p>
+
+        <div class="cookie-toggle-section">
+          <div class="cookie-toggle-header">
+            <h3>🔒 Cookies tècniques i de preferències</h3>
+            <div class="toggle-wrap">
+              <span class="toggle-label on-label">Sempre actives</span>
+              <div class="toggle on disabled" aria-label="Sempre actives"></div>
+            </div>
+          </div>
+          <div class="cookie-toggle-body">
+            Necessàries per al funcionament bàsic del lloc web: gestió del banner de cookies, navegació entre pàgines i carrega de tipografies. No requereixen consentiment.
+          </div>
+        </div>
+
+        <div class="cookie-toggle-section">
+          <div class="cookie-toggle-header">
+            <h3>📊 Cookies analítiques (Statcounter)</h3>
+            <div class="toggle-wrap">
+              <span class="toggle-label" id="analytics-label">Desactivades</span>
+              <div class="toggle" id="analytics-toggle" role="switch" aria-checked="false" tabindex="0" style="cursor:pointer" onclick="toggleAnalytics()" onkeydown="if(event.key==='Enter'||event.key===' ')toggleAnalytics()"></div>
+            </div>
+          </div>
+          <div class="cookie-toggle-body">
+            Permeten obtenir estadístiques anònimes sobre les visites al lloc web per millorar-ne el contingut i l'usabilitat. Gestor: Statcounter Ltd (Irlanda). Durada màxima: 13 mesos.
+          </div>
+        </div>
+
+        <div class="save-prefs">
+          <button class="btn-green" onclick="savePrefs()">Desa les meves preferències</button>
+          <div class="saved-msg" id="saved-msg">✓ Preferències desades correctament.</div>
+        </div>
+
+        <h2 id="actualitzacio">7. Actualitzacions d'aquesta política</h2>
+        <p>FoodLogistic S.A. es reserva el dret de modificar aquesta Política de Cookies per adaptar-la a canvis normatius, tècnics o de serveis. Et recomanem que la revisis periòdicament. En cas de canvis significatius, t'ho comunicarem a través d'un avís visible al lloc web.</p>
+        <p>Si tens dubtes sobre la nostra política de cookies, pots contactar amb nosaltres a <a href="mailto:privacitat@foodlogistic.cat">privacitat@foodlogistic.cat</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo" style="color:var(--white)">
+        <span class="logo-icon">FL</span>
+        <span class="logo-text">FoodLogistic<em>S.A.</em></span>
+      </a>
+      <p>Logística alimentària de confiança des de 1998.</p>
+    </div>
+    <div class="footer-links">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="nosaltres.html">Sobre nosaltres</a></li>
+        <li><a href="serveis.html">Serveis</a></li>
+        <li><a href="contacte.html">Contacte</a></li>
+      </ul>
+    </div>
+    <div class="footer-links">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="avis-legal.html">Avís legal</a></li>
+        <li><a href="politica-privacitat.html">Política de privacitat</a></li>
+        <li><a href="politica-cookies.html">Política de cookies</a></li>
+      </ul>
+    </div>
+    <div class="footer-contact">
+      <h4>Contacte</h4>
+      <p>📍 Polígon Les Guixeres, Vic</p>
+      <p>📞 <a href="tel:+34938000000">+34 938 00 00 00</a></p>
+      <p>✉️ <a href="mailto:privacitat@foodlogistic.cat">privacitat@foodlogistic.cat</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2025 FoodLogistic S.A. Tots els drets reservats. | NIF: A-08123456</p>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+<script>
+  // Llegir estat actual
+  const saved = localStorage.getItem('fl_cookies');
+  let analyticsOn = (saved === 'accepted');
+
+  function renderToggle() {
+    const t = document.getElementById('analytics-toggle');
+    const l = document.getElementById('analytics-label');
+    if (analyticsOn) {
+      t.classList.add('on'); t.setAttribute('aria-checked','true');
+      l.textContent = 'Activades'; l.className = 'toggle-label on-label';
+    } else {
+      t.classList.remove('on'); t.setAttribute('aria-checked','false');
+      l.textContent = 'Desactivades'; l.className = 'toggle-label';
+    }
+  }
+  function toggleAnalytics() { analyticsOn = !analyticsOn; renderToggle(); }
+  function savePrefs() {
+    localStorage.setItem('fl_cookies', analyticsOn ? 'accepted' : 'rejected');
+    const msg = document.getElementById('saved-msg');
+    msg.style.display = 'block';
+    setTimeout(() => msg.style.display = 'none', 3000);
+  }
+  renderToggle();
+</script>
+</body>
+</html>
